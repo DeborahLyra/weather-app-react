@@ -1,4 +1,4 @@
-body {
+main {
   margin: 0;
   font-family: Arial, sans-serif;
   height: 100vh;
@@ -9,13 +9,25 @@ body {
   justify-content: center;
   align-items: center;
 }
-main {
+.container{
   height: 600px;
   width: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+main.morning {
+  background-image: url('../public/img/bg-dia.png');
+}
+
+main.afternoon {
+  background-image: url('../public/img/bg-tarde.png');
+}
+
+main.night {
+  background-image: url('../public/img/bg-noite.png');
 }
 
 nav {
